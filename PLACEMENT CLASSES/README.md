@@ -1,0 +1,1 @@
+This folder includes code from the pre-placement training classes held in college.
