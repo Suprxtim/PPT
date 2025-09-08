@@ -28,5 +28,10 @@ Node* Convertarray2LL(vector<int> &arr){
 int main(){
     vector<int> arr={2,5,8,7};
     Node*head= Convertarray2LL(arr);
-    cout<< head->data;
+    Node*temp= head;
+    while(temp){
+        cout<<temp->data<<" ";
+        temp=temp->next;
+    }
+    
 }
