@@ -78,6 +78,6 @@ int main() {
     // Delete the Nth node from the end of ll
     head = sol.deleteNthNodeFromEnd(head, N);
 
-    // Print the modified linked lists
+    // Print the modified linked list
     sol.printLL(head);
 }

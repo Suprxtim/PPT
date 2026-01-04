@@ -14,7 +14,7 @@ struct Node {
 
 // Insert at head function
 void insertAtHead(Node* &head, int val) {
-    Node* newNode = new Node(val);  // create new node
+    Node* newNode = new Node(val);  // create new node in ll
     newNode->next = head;           // point new node to current head
     head = newNode;                 // move head to new node
 }

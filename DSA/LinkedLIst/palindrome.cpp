@@ -72,7 +72,7 @@ bool isPalindrome(Node* head) {
     // Compare data values of nodes from both halves
     while (second != NULL) {
         if (first->data != second->data) {
-            // If values do not match, the list is not a palindrome
+            // If values do not match, the list is not a palindrome .
             reverseLinkedList(newHead);  // Reverse the second half back to its original state
             return false;
         }
