@@ -75,7 +75,7 @@ int main() {
     // Create Solution object
     Solution sol;
 
-    // Delete the Nth node from the end
+    // Delete the Nth node from the end of ll
     head = sol.deleteNthNodeFromEnd(head, N);
 
     // Print the modified linked lists
